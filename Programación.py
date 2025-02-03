@@ -1,13 +1,16 @@
-print("Hola repositorio", end=" ")
-print("Este es un nuevo repositorio", end="!")
-x = int(input("What's x?"))
+
+
 def main():
-  Bricks_mario(size):
+  Bricks_mario(2)
 
 
-def Bricks_mario(n):
+def Bricks_mario(size):
   for i in range(size):
     for j in range(size):
-      print("#" * size , end="")
+      print("#" ,end="")
     print()
-  main()
+
+
+main()
+
+
